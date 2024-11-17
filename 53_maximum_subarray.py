@@ -1,4 +1,4 @@
-def maxSubArray(self, nums: List[int]) -> int:
+def maxSubArray(nums: list[int]) -> int:
     max_sum = float('-inf')
     cur_sum = 0
 
