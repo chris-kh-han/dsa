@@ -25,6 +25,8 @@ def merge(left, right):
     result.extend(left[i:])
     result.extend(right[j:])
 
+    return result
+
 
 print(sortArray([5, 2, 3, 1]))  # [1, 2, 3, 5]
 
