@@ -14,6 +14,8 @@ def lengthOfLongestSubstring(s: str) -> int:
     return longest
 
 
+s = 'abba'
+s = 'pwwkew'
 print(lengthOfLongestSubstring('pwwkew'))
 
 # Space O(n) Time O(n)
