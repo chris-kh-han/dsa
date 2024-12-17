@@ -17,5 +17,5 @@ strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
 print(groupAnagrams(strs))
 
 
-# Space Complexity: O(m * n), where m is the number of strings and n is the maximum length of each string
+# Space Complexity: O(m), where m is to store all strings in the hash map grouped by their anagram keys.
 # Time Complexity: O(m * n), where m is the number of strings and n is the maximum length of each string, res dict
